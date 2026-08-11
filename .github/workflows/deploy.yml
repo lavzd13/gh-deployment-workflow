@@ -4,6 +4,7 @@ name: Deploy static content to Pages
 on:
   # Runs on pushes targeting the specific file
   push:
+    branches: ["main"]
     paths: ['static/index.html']
 
   # Allows you to run this workflow manually from the Actions tab
